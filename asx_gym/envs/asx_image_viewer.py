@@ -31,7 +31,7 @@ except ImportError as e:
 
 
 class AsxImageViewer(object):
-    def __init__(self, display=None, max_width=500):
+    def __init__(self, display=None, max_width=1000):
         self.window = None
         self.is_open = False
         self.display = display
